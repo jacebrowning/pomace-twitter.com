@@ -1,2 +1,3 @@
-.pomelo.yml
+.venv/
+.pomace.yml
 *.log
