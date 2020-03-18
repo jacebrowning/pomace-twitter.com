@@ -1,7 +1,3 @@
-active_locators:
-  - mode: ''
-    value: ''
-    uses: 0
 inactive_locators:
   - mode: text
     value: Cancel
@@ -12,10 +8,4 @@ actions:
     locators:
       - mode: css
         value: '[aria-label="More"]'
-        uses: 0
-  - verb: ''
-    name: ''
-    locators:
-      - mode: ''
-        value: ''
         uses: 0

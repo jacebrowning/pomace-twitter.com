@@ -5,10 +5,6 @@ active_locators:
   - mode: text
     value: Block
     uses: 0
-inactive_locators:
-  - mode: ''
-    value: ''
-    uses: 0
 actions:
   - verb: click
     name: cancel
@@ -21,10 +17,4 @@ actions:
     locators:
       - mode: text
         value: Block
-        uses: 0
-  - verb: ''
-    name: ''
-    locators:
-      - mode: ''
-        value: ''
         uses: 0

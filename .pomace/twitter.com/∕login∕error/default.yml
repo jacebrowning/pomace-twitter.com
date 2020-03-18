@@ -1,11 +1,3 @@
-active_locators:
-  - mode: ''
-    value: ''
-    uses: 0
-inactive_locators:
-  - mode: ''
-    value: ''
-    uses: 0
 actions:
   - verb: fill
     name: username
@@ -24,10 +16,4 @@ actions:
     locators:
       - mode: text
         value: Log in
-        uses: 0
-  - verb: ''
-    name: ''
-    locators:
-      - mode: ''
-        value: ''
         uses: 0
