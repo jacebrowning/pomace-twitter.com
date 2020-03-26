@@ -1,6 +1,6 @@
 [tool.poetry]
 
-name = "twitter"
+name = "pomace-twitter"
 version = "0.0"
 description = "Pomace models for Twitter pages."
 authors = ["Jace Browning <jacebrowning@gmail.com>"]
@@ -9,7 +9,7 @@ authors = ["Jace Browning <jacebrowning@gmail.com>"]
 
 python = "^3.7"
 
-pomace = "=0.1a3"
+pomace = "=0.1a5"
 
 [build-system]
 

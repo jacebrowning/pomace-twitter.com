@@ -11,10 +11,14 @@ actions:
     locators:
       - mode: text
         value: Cancel
-        uses: 0
+        uses: 1
   - verb: click
     name: block
     locators:
       - mode: text
         value: Block
         uses: 0
+inactive_locators:
+  - mode: ''
+    value: ''
+    uses: 0

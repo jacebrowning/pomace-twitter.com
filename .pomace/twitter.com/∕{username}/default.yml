@@ -8,4 +8,8 @@ actions:
     locators:
       - mode: css
         value: '[aria-label="More"]'
-        uses: 0
+        uses: 2
+active_locators:
+  - mode: ''
+    value: ''
+    uses: 0

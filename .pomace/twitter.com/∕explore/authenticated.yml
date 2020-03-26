@@ -1,0 +1,10 @@
+active_locators:
+  - mode: text
+    value: Explore
+    uses: 0
+actions:
+  -
+inactive_locators:
+  - mode: ''
+    value: ''
+    uses: 0
