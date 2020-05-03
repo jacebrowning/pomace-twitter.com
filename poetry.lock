@@ -20,7 +20,7 @@ description = "Python package for providing Mozilla's CA Bundle."
 name = "certifi"
 optional = false
 python-versions = "*"
-version = "2019.11.28"
+version = "2020.4.5.1"
 
 [[package]]
 category = "main"
@@ -98,7 +98,7 @@ description = "File-based ORM for dataclasses."
 name = "datafiles"
 optional = false
 python-versions = ">=3.7,<4.0"
-version = "0.8b3"
+version = "0.10b1"
 
 [package.dependencies]
 PyYAML = ">=5.2,<6.0"
@@ -106,7 +106,7 @@ cached_property = ">=1.5,<2.0"
 classproperties = ">=0.1.3,<0.2.0"
 minilog = ">=1.4.1,<2.0.0"
 parse = ">=1.12,<2.0"
-"ruamel.yaml" = ">=0.16.7,<0.17.0"
+"ruamel.yaml" = ">=0.16.10,<0.17.0"
 tomlkit = ">=0.5.3,<0.6.0"
 typing-extensions = ">=3.7,<4.0"
 
@@ -124,7 +124,7 @@ description = "Minimalistic wrapper for Python logging."
 name = "minilog"
 optional = false
 python-versions = ">=3.6,<4.0"
-version = "1.5b2"
+version = "1.6b4"
 
 [[package]]
 category = "main"
@@ -148,16 +148,16 @@ description = "Dynamic page objects for browser automation."
 name = "pomace"
 optional = false
 python-versions = ">=3.7,<4.0"
-version = "0.1a5"
+version = "0.0.7"
 
 [package.dependencies]
 bullet = ">=2.1.0,<3.0.0"
 cleo = ">=0.7.6,<0.8.0"
-datafiles = ">=0.8b3,<0.9.0"
-minilog = ">=1.5b1,<2.0"
+datafiles = "0.10b1"
+minilog = "1.6b4"
 parse = ">=1.14.0,<2.0.0"
-splinter = ">=0.13.0,<0.14.0"
-webdriver_manager = ">=1.8.2,<2.0.0"
+splinter = ">=0.12.0,<0.13.0"
+webdriver_manager = ">=2.3.0,<3.0.0"
 
 [[package]]
 category = "main"
@@ -244,7 +244,7 @@ description = "browser abstraction for web acceptance testing"
 name = "splinter"
 optional = false
 python-versions = "*"
-version = "0.13.0"
+version = "0.12.0"
 
 [package.dependencies]
 selenium = ">=3.141.0"
@@ -269,7 +269,7 @@ description = "Backported and Experimental Type Hints for Python 3.5+"
 name = "typing-extensions"
 optional = false
 python-versions = "*"
-version = "3.7.4.1"
+version = "3.7.4.2"
 
 [[package]]
 category = "main"
@@ -277,11 +277,11 @@ description = "HTTP library with thread-safe connection pooling, file post, and 
 name = "urllib3"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4"
-version = "1.25.8"
+version = "1.25.9"
 
 [package.extras]
 brotli = ["brotlipy (>=0.6.0)"]
-secure = ["pyOpenSSL (>=0.14)", "cryptography (>=1.3.4)", "idna (>=2.0.0)", "certifi", "ipaddress"]
+secure = ["certifi", "cryptography (>=1.3.4)", "idna (>=2.0.0)", "pyOpenSSL (>=0.14)", "ipaddress"]
 socks = ["PySocks (>=1.5.6,<1.5.7 || >1.5.7,<2.0)"]
 
 [[package]]
@@ -290,7 +290,7 @@ description = "Library provides the way to automatically manage drivers for diff
 name = "webdriver-manager"
 optional = false
 python-versions = "*"
-version = "1.8.2"
+version = "2.4.0"
 
 [package.dependencies]
 configparser = "*"
@@ -298,7 +298,7 @@ crayons = "*"
 requests = "*"
 
 [metadata]
-content-hash = "68a8c4665f44cb214fa1ddcb00d3ee53dd06ca540964ce004ea02359883fe7c8"
+content-hash = "8a76bbce5d09d5e7a77799983e49dfc9ed7bce40ec4a4822a8f2b2a9aeb394f4"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -311,8 +311,8 @@ cached-property = [
     {file = "cached_property-1.5.1-py2.py3-none-any.whl", hash = "sha256:3a026f1a54135677e7da5ce819b0c690f156f37976f3e30c5430740725203d7f"},
 ]
 certifi = [
-    {file = "certifi-2019.11.28-py2.py3-none-any.whl", hash = "sha256:017c25db2a153ce562900032d5bc68e9f191e44e9a0f762f373977de9df1fbb3"},
-    {file = "certifi-2019.11.28.tar.gz", hash = "sha256:25b64c7da4cd7479594d035c08c2d809eb4aab3a26e5a990ea98cc450c320f1f"},
+    {file = "certifi-2020.4.5.1-py2.py3-none-any.whl", hash = "sha256:1d987a998c75633c40847cc966fcf5904906c920a7f17ef374f5aa4282abd304"},
+    {file = "certifi-2020.4.5.1.tar.gz", hash = "sha256:51fcb31174be6e6664c5f69e3e1691a2d72a1a12e90f872cbdb1567eb47b6519"},
 ]
 chardet = [
     {file = "chardet-3.0.4-py2.py3-none-any.whl", hash = "sha256:fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"},
@@ -342,16 +342,16 @@ crayons = [
     {file = "crayons-0.3.0.tar.gz", hash = "sha256:50e5fa729d313e2c607ae8bf7b53bb487652e10bd8e7a1e08c4bc8bf62755ffc"},
 ]
 datafiles = [
-    {file = "datafiles-0.8b3-py3-none-any.whl", hash = "sha256:7b46ab511d744a0fe42edfcef2bb74918fec434353be3fb16dd5d6f562806399"},
-    {file = "datafiles-0.8b3.tar.gz", hash = "sha256:375d5ac0d8107f2788e1f36783149006d173bfd42551be68ef852582556fa8d7"},
+    {file = "datafiles-0.10b1-py3-none-any.whl", hash = "sha256:450b4a05f9c5164b1e290781854ec9ff4778cee165e057d002871cfe150c8dc2"},
+    {file = "datafiles-0.10b1.tar.gz", hash = "sha256:12247f37cc3467da8196a41951821ca9a259d06ad3db124f019d54df2a9f80c7"},
 ]
 idna = [
     {file = "idna-2.9-py2.py3-none-any.whl", hash = "sha256:a068a21ceac8a4d63dbfd964670474107f541babbd2250d61922f029858365fa"},
     {file = "idna-2.9.tar.gz", hash = "sha256:7588d1c14ae4c77d74036e8c22ff447b26d0fde8f007354fd48a7814db15b7cb"},
 ]
 minilog = [
-    {file = "minilog-1.5b2-py3-none-any.whl", hash = "sha256:397e4ff590a6c8947b5355d68a4780a1cc8671062330a4de16ad6e53fc02adea"},
-    {file = "minilog-1.5b2.tar.gz", hash = "sha256:b991a0a45fd970c9f8b4b29ee740c2be3123e9d16207f56e15ff64f312ab49db"},
+    {file = "minilog-1.6b4-py3-none-any.whl", hash = "sha256:ac7c7776f2e498f0c58e4ad7798c3e1c4a42f3d8788a30d8497566d1dec396c8"},
+    {file = "minilog-1.6b4.tar.gz", hash = "sha256:5932f5d4662b1f558179d35953109d3177b621a6fa6f7e415be6fa4626715545"},
 ]
 parse = [
     {file = "parse-1.15.0.tar.gz", hash = "sha256:a6d4e2c2f1fbde6717d28084a191a052950f758c0cbd83805357e6575c2b95c0"},
@@ -361,8 +361,8 @@ pastel = [
     {file = "pastel-0.2.0.tar.gz", hash = "sha256:46155fc523bdd4efcd450bbcb3f2b94a6e3b25edc0eb493e081104ad09e1ca36"},
 ]
 pomace = [
-    {file = "pomace-0.1a5-py3-none-any.whl", hash = "sha256:e4f05c46fbcd54e9c03b02e8ac6b22a72da78ccd61b5b115f4b0c15ddf1ab581"},
-    {file = "pomace-0.1a5.tar.gz", hash = "sha256:d786ce2d31bdee6c44e90ef3d820db35718fde8f518f0b1ca7fbe4093fda946b"},
+    {file = "pomace-0.0.7-py3-none-any.whl", hash = "sha256:242b8d7d1972322ca52ee49be524c71a46c85d59e13f47efc70a56a366930ff1"},
+    {file = "pomace-0.0.7.tar.gz", hash = "sha256:a14267ad3f22916089dcf00264e4979ea031bf05ed84fb516a01ee6da8e282e3"},
 ]
 pylev = [
     {file = "pylev-1.3.0-py2.py3-none-any.whl", hash = "sha256:1d29a87beb45ebe1e821e7a3b10da2b6b2f4c79b43f482c2df1a1f748a6e114e"},
@@ -419,22 +419,22 @@ six = [
     {file = "six-1.14.0.tar.gz", hash = "sha256:236bdbdce46e6e6a3d61a337c0f8b763ca1e8717c03b369e87a7ec7ce1319c0a"},
 ]
 splinter = [
-    {file = "splinter-0.13.0-py2-none-any.whl", hash = "sha256:62b5876757f0ac09324a7d5e5f94886110219c2b85300516ec39a914d7992d91"},
-    {file = "splinter-0.13.0.tar.gz", hash = "sha256:9e92535f273622507ac157612c3bb0e9cee7b5ccd2aa097d47b408e34c2ca356"},
+    {file = "splinter-0.12.0-py2-none-any.whl", hash = "sha256:df74fa5a0916e05026d8d8ed997577e18a14d5d45e920a4895e87dc86e813241"},
+    {file = "splinter-0.12.0.tar.gz", hash = "sha256:96bfb1e8a1fbc48f5d507ed8f6a87dca2d7b973093d09a668abb57caff57365d"},
 ]
 tomlkit = [
     {file = "tomlkit-0.5.11-py2.py3-none-any.whl", hash = "sha256:4e1bd6c9197d984528f9ff0cc9db667c317d8881288db50db20eeeb0f6b0380b"},
     {file = "tomlkit-0.5.11.tar.gz", hash = "sha256:f044eda25647882e5ef22b43a1688fb6ab12af2fc50e8456cdfc751c873101cf"},
 ]
 typing-extensions = [
-    {file = "typing_extensions-3.7.4.1-py2-none-any.whl", hash = "sha256:910f4656f54de5993ad9304959ce9bb903f90aadc7c67a0bef07e678014e892d"},
-    {file = "typing_extensions-3.7.4.1-py3-none-any.whl", hash = "sha256:cf8b63fedea4d89bab840ecbb93e75578af28f76f66c35889bd7065f5af88575"},
-    {file = "typing_extensions-3.7.4.1.tar.gz", hash = "sha256:091ecc894d5e908ac75209f10d5b4f118fbdb2eb1ede6a63544054bb1edb41f2"},
+    {file = "typing_extensions-3.7.4.2-py2-none-any.whl", hash = "sha256:f8d2bd89d25bc39dabe7d23df520442fa1d8969b82544370e03d88b5a591c392"},
+    {file = "typing_extensions-3.7.4.2-py3-none-any.whl", hash = "sha256:6e95524d8a547a91e08f404ae485bbb71962de46967e1b71a0cb89af24e761c5"},
+    {file = "typing_extensions-3.7.4.2.tar.gz", hash = "sha256:79ee589a3caca649a9bfd2a8de4709837400dfa00b6cc81962a1e6a1815969ae"},
 ]
 urllib3 = [
-    {file = "urllib3-1.25.8-py2.py3-none-any.whl", hash = "sha256:2f3db8b19923a873b3e5256dc9c2dedfa883e33d87c690d9c7913e1f40673cdc"},
-    {file = "urllib3-1.25.8.tar.gz", hash = "sha256:87716c2d2a7121198ebcb7ce7cccf6ce5e9ba539041cfbaeecfb641dc0bf6acc"},
+    {file = "urllib3-1.25.9-py2.py3-none-any.whl", hash = "sha256:88206b0eb87e6d677d424843ac5209e3fb9d0190d0ee169599165ec25e9d9115"},
+    {file = "urllib3-1.25.9.tar.gz", hash = "sha256:3018294ebefce6572a474f0604c2021e33b3fd8006ecd11d62107a5d2a963527"},
 ]
 webdriver-manager = [
-    {file = "webdriver_manager-1.8.2-py2.py3-none-any.whl", hash = "sha256:4e3f522f937fd6ab246d63ee06612287bc122b70bb6034266459de86953b8645"},
+    {file = "webdriver_manager-2.4.0-py2.py3-none-any.whl", hash = "sha256:87f3f4bfda4917fa0ef1387fd1ddbbb5738e6961eb846434895801167771f652"},
 ]

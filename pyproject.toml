@@ -9,7 +9,7 @@ authors = ["Jace Browning <jacebrowning@gmail.com>"]
 
 python = "^3.7"
 
-pomace = "=0.1a5"
+pomace = "0.0.7"
 
 [build-system]
 

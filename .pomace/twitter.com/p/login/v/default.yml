@@ -4,24 +4,36 @@ actions:
     locators:
       - mode: name
         value: session[username_or_email]
-        uses: 7
+        index: 0
+        score: 0.1
   - verb: fill
     name: password
     locators:
       - mode: name
         value: session[password]
-        uses: 2
+        index: 0
+        score: 0.1
   - verb: click
     name: log_in
     locators:
       - mode: text
         value: Log in
-        uses: 2
+        index: 0
+        score: 0.1
+  - verb: ''
+    name: ''
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        score: 0.5
 active_locators:
   - mode: ''
     value: ''
-    uses: 0
+    index: 0
+    score: 0.0
 inactive_locators:
   - mode: ''
     value: ''
-    uses: 0
+    index: 0
+    score: 0.0

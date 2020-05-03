@@ -1,0 +1,18 @@
+active_locators:
+  - mode: text
+    value: Explore
+    index: 0
+    score: 0.0
+actions:
+  - verb: ''
+    name: ''
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        score: 0.5
+inactive_locators:
+  - mode: name
+    value: session[password]
+    index: 0
+    score: 0.0
