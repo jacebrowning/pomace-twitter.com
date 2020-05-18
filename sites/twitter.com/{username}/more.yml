@@ -1,20 +1,16 @@
-inactive_locators:
+active_locators:
   - mode: text
-    value: Cancel
-    index: 0
-    score: 0.0
-  - mode: name
-    value: session[password]
+    value: Copy link to profile
     index: 0
     score: 0.0
 actions:
   - verb: click
-    name: more
+    name: block
     locators:
       - mode: css
-        value: '[aria-label="More"]'
+        value: '[data-testid="block"]'
         index: 0
-        score: 0.1
+        score: 0.125
   - verb: ''
     name: ''
     locators:
@@ -22,8 +18,8 @@ actions:
         value: ''
         index: 0
         score: 0.5
-active_locators:
-  - mode: text
-    value: Tweets & replies
+inactive_locators:
+  - mode: ''
+    value: ''
     index: 0
     score: 0.0

@@ -1,16 +1,20 @@
 active_locators:
   - mode: text
-    value: Copy link to profile
+    value: Explore
+    index: 0
+    score: 0.0
+  - mode: text
+    value: Log in
     index: 0
     score: 0.0
 actions:
   - verb: click
-    name: block
+    name: log_in
     locators:
-      - mode: css
-        value: '[data-testid="block"]'
+      - mode: text
+        value: Log in
         index: 0
-        score: 0.1
+        score: 0.15625
   - verb: ''
     name: ''
     locators:

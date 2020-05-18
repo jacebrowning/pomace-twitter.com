@@ -5,21 +5,21 @@ actions:
       - mode: name
         value: session[username_or_email]
         index: 0
-        score: 0.1
+        score: 0.15625
   - verb: fill
     name: password
     locators:
       - mode: name
         value: session[password]
         index: 0
-        score: 0.1
+        score: 0.15625
   - verb: click
     name: log_in
     locators:
       - mode: text
         value: Log in
         index: 0
-        score: 0.1
+        score: 0.15625
   - verb: ''
     name: ''
     locators:

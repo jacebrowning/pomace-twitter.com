@@ -14,7 +14,7 @@ actions:
       - mode: text
         value: Cancel
         index: 0
-        score: 0.0
+        score: 0.1
   - verb: click
     name: block
     locators:
