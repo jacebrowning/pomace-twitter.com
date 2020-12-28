@@ -9,37 +9,10 @@ inactive_locators:
     index: 0
     uses: 0
 actions:
-  - verb: ''
-    name: ''
-    locators:
-      - mode: ''
-        value: ''
-        index: 0
-        uses: 0
   - verb: click
     name: cancel
     locators:
-      - mode: ''
-        value: ''
-        index: 0
-        uses: 0
-      - mode: text
-        value: Cancel
-        index: 0
-        uses: -1
-      - mode: text
-        value: Cancel
-        index: 0
-        uses: -1
-      - mode: value
-        value: Cancel
-        index: 0
-        uses: -1
-      - mode: value
-        value: Cancel
-        index: 0
-        uses: -1
       - mode: css
         value: '[aria-label="Close"]'
         index: 0
-        uses: 3
+        uses: 4

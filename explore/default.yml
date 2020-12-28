@@ -2,11 +2,11 @@ active_locators:
   - mode: text
     value: Explore
     index: 0
-    score: 0.0
+    uses: 0
   - mode: text
     value: Log in
     index: 0
-    score: 0.0
+    uses: 0
 actions:
   - verb: click
     name: log_in
@@ -14,16 +14,9 @@ actions:
       - mode: text
         value: Log in
         index: 0
-        score: 0.15625
-  - verb: ''
-    name: ''
-    locators:
-      - mode: ''
-        value: ''
-        index: 0
-        score: 0.5
+        uses: 2
 inactive_locators:
   - mode: ''
     value: ''
     index: 0
-    score: 0.0
+    uses: 0

@@ -6,30 +6,6 @@ actions:
         value: session[username_or_email]
         index: 0
         uses: 2
-      - mode: name
-        value: username
-        index: 0
-        uses: 0
-      - mode: name
-        value: username
-        index: 0
-        uses: 0
-      - mode: id
-        value: username
-        index: 0
-        uses: 0
-      - mode: id
-        value: username
-        index: 0
-        uses: 0
-      - mode: css
-        value: '[aria-label="Username"]'
-        index: 0
-        uses: 0
-      - mode: id
-        value: Username
-        index: 0
-        uses: 0
   - verb: fill
     name: password
     locators:
@@ -37,30 +13,6 @@ actions:
         value: session[password]
         index: 0
         uses: 2
-      - mode: name
-        value: password
-        index: 0
-        uses: 0
-      - mode: name
-        value: password
-        index: 0
-        uses: 0
-      - mode: id
-        value: password
-        index: 0
-        uses: 0
-      - mode: id
-        value: password
-        index: 0
-        uses: 0
-      - mode: css
-        value: '[aria-label="Password"]'
-        index: 0
-        uses: 0
-      - mode: id
-        value: Password
-        index: 0
-        uses: 0
   - verb: click
     name: log_in
     locators:
@@ -68,22 +20,6 @@ actions:
         value: Log in
         index: 0
         uses: 2
-      - mode: text
-        value: Log In
-        index: 0
-        uses: 0
-      - mode: text
-        value: Log in
-        index: 0
-        uses: 0
-      - mode: value
-        value: Log In
-        index: 0
-        uses: 0
-      - mode: value
-        value: Log in
-        index: 0
-        uses: 0
 active_locators:
   - mode: ''
     value: ''

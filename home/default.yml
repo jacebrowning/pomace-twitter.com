@@ -9,33 +9,10 @@ inactive_locators:
     index: 0
     uses: 0
 actions:
-  - verb: ''
-    name: ''
-    locators:
-      - mode: ''
-        value: ''
-        index: 0
-        uses: 0
   - verb: click
     name: tweet
     locators:
-      - mode: ''
-        value: ''
-        index: 0
-        uses: 0
       - mode: text
         value: Tweet
         index: 0
         uses: 3
-      - mode: text
-        value: Tweet
-        index: 0
-        uses: 0
-      - mode: value
-        value: Tweet
-        index: 0
-        uses: 0
-      - mode: value
-        value: Tweet
-        index: 0
-        uses: 0

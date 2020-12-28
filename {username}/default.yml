@@ -15,29 +15,6 @@ actions:
         value: '[aria-label="More"]'
         index: 0
         uses: 2
-      - mode: text
-        value: More
-        index: 0
-        uses: 0
-      - mode: text
-        value: More
-        index: 0
-        uses: 0
-      - mode: value
-        value: More
-        index: 0
-        uses: 0
-      - mode: value
-        value: More
-        index: 0
-        uses: 0
-  - verb: ''
-    name: ''
-    locators:
-      - mode: ''
-        value: ''
-        index: 0
-        uses: 0
 active_locators:
   - mode: text
     value: Tweets & replies
