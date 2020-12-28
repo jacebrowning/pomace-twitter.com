@@ -17,25 +17,29 @@ actions:
         index: 0
         uses: 0
   - verb: click
-    name: tweet
+    name: cancel
     locators:
       - mode: ''
         value: ''
         index: 0
         uses: 0
       - mode: text
-        value: Tweet
+        value: Cancel
+        index: 0
+        uses: -1
+      - mode: text
+        value: Cancel
+        index: 0
+        uses: -1
+      - mode: value
+        value: Cancel
+        index: 0
+        uses: -1
+      - mode: value
+        value: Cancel
+        index: 0
+        uses: -1
+      - mode: css
+        value: '[aria-label="Close"]'
         index: 0
         uses: 3
-      - mode: text
-        value: Tweet
-        index: 0
-        uses: 0
-      - mode: value
-        value: Tweet
-        index: 0
-        uses: 0
-      - mode: value
-        value: Tweet
-        index: 0
-        uses: 0

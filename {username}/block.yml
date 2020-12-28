@@ -2,11 +2,11 @@ active_locators:
   - mode: text
     value: Cancel
     index: 0
-    score: 0.0
+    uses: 0
   - mode: text
     value: Block
     index: 0
-    score: 0.0
+    uses: 0
 actions:
   - verb: click
     name: cancel
@@ -14,23 +14,55 @@ actions:
       - mode: text
         value: Cancel
         index: 0
-        score: 0.1
+        uses: 1
+      - mode: text
+        value: Cancel
+        index: 0
+        uses: 0
+      - mode: text
+        value: Cancel
+        index: 0
+        uses: 0
+      - mode: value
+        value: Cancel
+        index: 0
+        uses: 0
+      - mode: value
+        value: Cancel
+        index: 0
+        uses: 0
   - verb: click
     name: block
     locators:
       - mode: text
         value: Block
         index: 0
-        score: 0.0
+        uses: 1
+      - mode: text
+        value: Block
+        index: 0
+        uses: 0
+      - mode: text
+        value: Block
+        index: 0
+        uses: 0
+      - mode: value
+        value: Block
+        index: 0
+        uses: 0
+      - mode: value
+        value: Block
+        index: 0
+        uses: 0
   - verb: ''
     name: ''
     locators:
       - mode: ''
         value: ''
         index: 0
-        score: 0.5
+        uses: 0
 inactive_locators:
   - mode: ''
     value: ''
     index: 0
-    score: 0.0
+    uses: 0
