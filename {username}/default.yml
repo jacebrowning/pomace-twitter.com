@@ -1,12 +1,18 @@
-inactive_locators:
-  - mode: text
-    value: Cancel
-    index: 0
-    uses: 0
-  - mode: name
-    value: session[password]
-    index: 0
-    uses: 0
+locators:
+  inclusions:
+    - mode: text
+      value: Tweets & replies
+      index: 0
+      uses: 3
+  exclusions:
+    - mode: text
+      value: Cancel
+      index: 0
+      uses: 1
+    - mode: name
+      value: session[password]
+      index: 0
+      uses: 0
 actions:
   - verb: click
     name: more
@@ -14,9 +20,20 @@ actions:
       - mode: css
         value: '[aria-label="More"]'
         index: 0
-        uses: 2
-active_locators:
-  - mode: text
-    value: Tweets & replies
-    index: 0
-    uses: 0
+        uses: 3
+      - mode: text
+        value: More
+        index: 0
+        uses: 0
+      - mode: text
+        value: More
+        index: 0
+        uses: 0
+      - mode: value
+        value: More
+        index: 0
+        uses: 0
+      - mode: value
+        value: More
+        index: 0
+        uses: 0
