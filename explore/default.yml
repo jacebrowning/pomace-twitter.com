@@ -1,12 +1,15 @@
-active_locators:
-  - mode: text
-    value: Explore
-    index: 0
-    uses: 0
-  - mode: text
-    value: Log in
-    index: 0
-    uses: 0
+locators:
+  inclusions:
+    - mode: text
+      value: Explore
+      index: 0
+      uses: 4
+    - mode: text
+      value: Log in
+      index: 0
+      uses: 1
+  exclusions:
+    -
 actions:
   - verb: click
     name: log_in
@@ -14,9 +17,20 @@ actions:
       - mode: text
         value: Log in
         index: 0
-        uses: 2
-inactive_locators:
-  - mode: ''
-    value: ''
-    index: 0
-    uses: 0
+        uses: 3
+      - mode: text
+        value: Log In
+        index: 0
+        uses: 0
+      - mode: text
+        value: Log in
+        index: 0
+        uses: 0
+      - mode: value
+        value: Log In
+        index: 0
+        uses: 0
+      - mode: value
+        value: Log in
+        index: 0
+        uses: 0

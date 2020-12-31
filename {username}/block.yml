@@ -1,12 +1,15 @@
-active_locators:
-  - mode: text
-    value: Cancel
-    index: 0
-    uses: 0
-  - mode: text
-    value: Block
-    index: 0
-    uses: 0
+locators:
+  inclusions:
+    - mode: text
+      value: Cancel
+      index: 0
+      uses: 1
+    - mode: text
+      value: Block
+      index: 0
+      uses: 1
+  exclusions:
+    -
 actions:
   - verb: click
     name: cancel
@@ -14,7 +17,23 @@ actions:
       - mode: text
         value: Cancel
         index: 0
-        uses: 1
+        uses: 2
+      - mode: text
+        value: Cancel
+        index: 0
+        uses: 0
+      - mode: text
+        value: Cancel
+        index: 0
+        uses: 0
+      - mode: value
+        value: Cancel
+        index: 0
+        uses: 0
+      - mode: value
+        value: Cancel
+        index: 0
+        uses: 0
   - verb: click
     name: block
     locators:
@@ -22,8 +41,19 @@ actions:
         value: Block
         index: 0
         uses: 1
-inactive_locators:
-  - mode: ''
-    value: ''
-    index: 0
-    uses: 0
+      - mode: text
+        value: Block
+        index: 0
+        uses: 0
+      - mode: text
+        value: Block
+        index: 0
+        uses: 0
+      - mode: value
+        value: Block
+        index: 0
+        uses: 0
+      - mode: value
+        value: Block
+        index: 0
+        uses: 0
