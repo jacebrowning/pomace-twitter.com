@@ -67,7 +67,7 @@ actions:
       - mode: text
         value: Log in
         index: 0
-        uses: 3
+        uses: 4
       - mode: text
         value: Log In
         index: 0

@@ -2,7 +2,28 @@ actions:
   - verb: click
     name: tweet
     locators:
+      - mode: css
+        value: '[aria-label="Tweet"]'
+        index: 0
+        uses: 6
       - mode: text
         value: Tweet
         index: 0
-        uses: 3
+        uses: 0
+      - mode: text
+        value: Tweet
+        index: 0
+        uses: 0
+      - mode: value
+        value: Tweet
+        index: 0
+        uses: 0
+      - mode: value
+        value: Tweet
+        index: 0
+        uses: 0
+locators:
+  inclusions:
+    -
+  exclusions:
+    -
