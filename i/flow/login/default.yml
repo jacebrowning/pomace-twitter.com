@@ -1,0 +1,83 @@
+locators:
+  inclusions:
+    - mode: ''
+      value: ''
+      index: 0
+      uses: 0
+  exclusions:
+    - mode: ''
+      value: ''
+      index: 0
+      uses: 0
+actions:
+  - verb: ''
+    name: ''
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+  - verb: fill
+    name: username
+    locators:
+      - mode: name
+        value: text
+        index: 0
+        uses: 2
+  - verb: click
+    name: next
+    locators:
+      - mode: text
+        value: Next
+        index: 0
+        uses: 2
+  - verb: fill
+    name: password
+    locators:
+      - mode: name
+        value: password
+        index: 0
+        uses: 2
+  - verb: click
+    name: log_in
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: text
+        value: Log In
+        index: 0
+        uses: -1
+      - mode: text
+        value: Log in
+        index: 0
+        uses: 2
+      - mode: text
+        value: log in
+        index: 0
+        uses: 0
+      - mode: value
+        value: Log In
+        index: 0
+        uses: 0
+      - mode: value
+        value: Log in
+        index: 0
+        uses: 0
+      - mode: value
+        value: log in
+        index: 0
+        uses: 0
+      - mode: text (partial)
+        value: Log In
+        index: 0
+        uses: 0
+      - mode: text (partial)
+        value: Log in
+        index: 0
+        uses: 0
+      - mode: text (partial)
+        value: log in
+        index: 0
+        uses: 0

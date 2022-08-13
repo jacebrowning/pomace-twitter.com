@@ -67,23 +67,23 @@ actions:
       - mode: text
         value: Log in
         index: 0
-        uses: 4
+        uses: 3
       - mode: text
         value: Log In
         index: 0
-        uses: 0
+        uses: -1
       - mode: text
         value: Log in
         index: 0
-        uses: 0
+        uses: -1
       - mode: value
         value: Log In
         index: 0
-        uses: 0
+        uses: -1
       - mode: value
         value: Log in
         index: 0
-        uses: 0
+        uses: -1
 locators:
   inclusions:
     -
